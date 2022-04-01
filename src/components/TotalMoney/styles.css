@@ -1,0 +1,27 @@
+.priceMobile,
+.priceDesktop {
+  width: 300px;
+  height: 60px;
+  background-color: #e34981;
+  color: #fff;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin: 10px auto;
+}
+
+.priceDesktop {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .priceDesktop {
+    display: flex;
+  }
+  .priceMobile {
+    display: none;
+  }
+}

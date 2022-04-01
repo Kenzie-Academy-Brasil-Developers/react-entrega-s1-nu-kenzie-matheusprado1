@@ -1,0 +1,77 @@
+html {
+  background-color: #f8f9fa;
+}
+.App-header {
+  width: 100vw;
+  height: 100vh;
+  color: #212529;
+  font-family: "Nunito", sans-serif;
+}
+
+img {
+  width: 120px;
+  height: 18px;
+}
+
+header {
+  width: 100vw;
+  height: 77px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 20px;
+  box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  color: #212529;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.filter button {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  main {
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-evenly;
+  }
+
+  .filter {
+    width: 500px;
+    justify-content: flex-start;
+  }
+
+  .filter button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin: 5px;
+  }
+
+  .resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 560px;
+    height: 400px;
+  }
+}

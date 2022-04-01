@@ -1,0 +1,103 @@
+.noneInList {
+  width: 300px;
+  height: 300px;
+  background-color: #f8f9fa;
+}
+
+.noneInList h1 {
+  color: #868e96;
+  font-weight: 700;
+}
+
+.noItem {
+  width: 300px;
+  height: 270px;
+  padding-top: 10px;
+}
+
+.list {
+  min-height: 100px;
+  max-height: 300px;
+  width: 300px;
+}
+
+.scroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  max-height: 300px;
+}
+
+ul {
+  background-color: #f8f9fa;
+  margin: 20px 0px;
+  width: 290px;
+  height: 115px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 4px;
+}
+
+ul:hover {
+  transition: 0.4s;
+  box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+}
+
+.debit {
+  border-left: 3px solid green;
+}
+
+.credit {
+  border-left: 3px solid gray;
+}
+
+li {
+  width: 100px;
+  padding: 10px 0px 10px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete:hover {
+  background-color: #868e96;
+  color: #f8f9fa;
+}
+
+span {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.type {
+  color: #868e96;
+}
+
+@media (min-width: 1024px) {
+  .list {
+    width: 560px;
+  }
+
+  ul {
+    width: 400px;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 3px;
+  }
+
+  .noneInList {
+    width: 500px;
+  }
+
+  .noneInList h1 {
+    font-size: 22px;
+  }
+
+  .noItem {
+    padding-top: 20px;
+    width: 560px;
+  }
+}

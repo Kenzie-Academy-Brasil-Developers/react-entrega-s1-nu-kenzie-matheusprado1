@@ -1,0 +1,41 @@
+button {
+  color: #868e96;
+  height: 40px;
+  background-color: #e9ecef;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border: 1.4px solid #e9ecef;
+  box-sizing: border-box;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+button:hover {
+  cursor: pointer;
+  transition: 0.4s;
+  color: #fff;
+}
+
+.all {
+  background-color: #fd377e;
+  color: #fff;
+}
+
+.entries:hover {
+  background-color: #fd377e;
+}
+
+.start:hover {
+  background-color: #868e96;
+}
+
+.expense:hover {
+  background-color: #868e96;
+}
