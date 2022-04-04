@@ -20,7 +20,7 @@ function App() {
 
   function filterType(item) {
     const filteredTypeList = listTransactions.filter(
-      (element) => element.transaction !== item
+      (element) => element.transaction === item
     );
     setListTransactions(filteredTypeList);
   }
@@ -45,13 +45,13 @@ function App() {
           <section className="resume">
             <div className="filter">
               <h2>Resumo financeiro</h2>
-              <Button onClick className="all">
+              <Button onClick={() => filterType("")} className="all">
                 Todos
               </Button>
-              <Button onClick className="entries">
+              <Button onClick={() => filterType("Entrada")} className="entries">
                 Entrada
               </Button>
-              <Button onClick className="expense">
+              <Button onClick={() => filterType("Despesa")} className="expense">
                 Despesa
               </Button>
             </div>

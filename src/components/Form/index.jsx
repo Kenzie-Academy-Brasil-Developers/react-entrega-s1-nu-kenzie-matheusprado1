@@ -9,7 +9,7 @@ const Form = ({ addItem, className }) => {
 
   return (
     <div className={className}>
-      <form onSubmit={(e) => e.preventDefault()}>
+      <form onSubmit={(event) => event.preventDefault()}>
         <p>Descrição</p>
         <input
           type="text"
